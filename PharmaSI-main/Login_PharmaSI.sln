@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.36422.26
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Login_PharmaSI", "Login_PharmaSI\Login_PharmaSI.csproj", "{8D1B9E6A-C617-42D5-B39D-EB196DB11B45}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D1B9E6A-C617-42D5-B39D-EB196DB11B45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D1B9E6A-C617-42D5-B39D-EB196DB11B45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D1B9E6A-C617-42D5-B39D-EB196DB11B45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D1B9E6A-C617-42D5-B39D-EB196DB11B45}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A3BBE24F-FB95-450A-9F0C-D411D964D7EC}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,67 @@
+C:\Users\ysant\Desktop\Projet marliere\Login_PharmaSI\PharmaSI\PharmaSI-main\Login_PharmaSI\obj\Debug\Login_PharmaSI.csproj.AssemblyReference.cache
+C:\Users\ysant\Desktop\Projet marliere\Login_PharmaSI\PharmaSI\PharmaSI-main\Login_PharmaSI\bin\Debug\Login_PharmaSI.exe.config
+C:\Users\ysant\Desktop\Projet marliere\Login_PharmaSI\PharmaSI\PharmaSI-main\Login_PharmaSI\bin\Debug\Login_PharmaSI.exe
+C:\Users\ysant\Desktop\Projet marliere\Login_PharmaSI\PharmaSI\PharmaSI-main\Login_PharmaSI\bin\Debug\Login_PharmaSI.pdb
+C:\Users\ysant\Desktop\Projet marliere\Login_PharmaSI\PharmaSI\PharmaSI-main\Login_PharmaSI\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\ysant\Desktop\Projet marliere\Login_PharmaSI\PharmaSI\PharmaSI-main\Login_PharmaSI\bin\Debug\Google.Protobuf.dll
+C:\Users\ysant\Desktop\Projet marliere\Login_PharmaSI\PharmaSI\PharmaSI-main\Login_PharmaSI\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\ysant\Desktop\Projet marliere\Login_PharmaSI\PharmaSI\PharmaSI-main\Login_PharmaSI\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\ysant\Desktop\Projet marliere\Login_PharmaSI\PharmaSI\PharmaSI-main\Login_PharmaSI\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\ysant\Desktop\Projet marliere\Login_PharmaSI\PharmaSI\PharmaSI-main\Login_PharmaSI\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ysant\Desktop\Projet marliere\Login_PharmaSI\PharmaSI\PharmaSI-main\Login_PharmaSI\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ysant\Desktop\Projet marliere\Login_PharmaSI\PharmaSI\PharmaSI-main\Login_PharmaSI\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\ysant\Desktop\Projet marliere\Login_PharmaSI\PharmaSI\PharmaSI-main\Login_PharmaSI\bin\Debug\MySql.Data.dll
+C:\Users\ysant\Desktop\Projet marliere\Login_PharmaSI\PharmaSI\PharmaSI-main\Login_PharmaSI\bin\Debug\MySqlConnector.dll
+C:\Users\ysant\Desktop\Projet marliere\Login_PharmaSI\PharmaSI\PharmaSI-main\Login_PharmaSI\bin\Debug\Newtonsoft.Json.Bson.dll
+C:\Users\ysant\Desktop\Projet marliere\Login_PharmaSI\PharmaSI\PharmaSI-main\Login_PharmaSI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ysant\Desktop\Projet marliere\Login_PharmaSI\PharmaSI\PharmaSI-main\Login_PharmaSI\bin\Debug\System.Buffers.dll
+C:\Users\ysant\Desktop\Projet marliere\Login_PharmaSI\PharmaSI\PharmaSI-main\Login_PharmaSI\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\ysant\Desktop\Projet marliere\Login_PharmaSI\PharmaSI\PharmaSI-main\Login_PharmaSI\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ysant\Desktop\Projet marliere\Login_PharmaSI\PharmaSI\PharmaSI-main\Login_PharmaSI\bin\Debug\System.IO.Pipelines.dll
+C:\Users\ysant\Desktop\Projet marliere\Login_PharmaSI\PharmaSI\PharmaSI-main\Login_PharmaSI\bin\Debug\System.Memory.dll
+C:\Users\ysant\Desktop\Projet marliere\Login_PharmaSI\PharmaSI\PharmaSI-main\Login_PharmaSI\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\ysant\Desktop\Projet marliere\Login_PharmaSI\PharmaSI\PharmaSI-main\Login_PharmaSI\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ysant\Desktop\Projet marliere\Login_PharmaSI\PharmaSI\PharmaSI-main\Login_PharmaSI\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\ysant\Desktop\Projet marliere\Login_PharmaSI\PharmaSI\PharmaSI-main\Login_PharmaSI\bin\Debug\ZstdSharp.dll
+C:\Users\ysant\Desktop\Projet marliere\Login_PharmaSI\PharmaSI\PharmaSI-main\Login_PharmaSI\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\ysant\Desktop\Projet marliere\Login_PharmaSI\PharmaSI\PharmaSI-main\Login_PharmaSI\bin\Debug\Google.Protobuf.pdb
+C:\Users\ysant\Desktop\Projet marliere\Login_PharmaSI\PharmaSI\PharmaSI-main\Login_PharmaSI\bin\Debug\Google.Protobuf.xml
+C:\Users\ysant\Desktop\Projet marliere\Login_PharmaSI\PharmaSI\PharmaSI-main\Login_PharmaSI\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\ysant\Desktop\Projet marliere\Login_PharmaSI\PharmaSI\PharmaSI-main\Login_PharmaSI\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\ysant\Desktop\Projet marliere\Login_PharmaSI\PharmaSI\PharmaSI-main\Login_PharmaSI\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\ysant\Desktop\Projet marliere\Login_PharmaSI\PharmaSI\PharmaSI-main\Login_PharmaSI\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\ysant\Desktop\Projet marliere\Login_PharmaSI\PharmaSI\PharmaSI-main\Login_PharmaSI\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\ysant\Desktop\Projet marliere\Login_PharmaSI\PharmaSI\PharmaSI-main\Login_PharmaSI\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\ysant\Desktop\Projet marliere\Login_PharmaSI\PharmaSI\PharmaSI-main\Login_PharmaSI\bin\Debug\MySql.Data.xml
+C:\Users\ysant\Desktop\Projet marliere\Login_PharmaSI\PharmaSI\PharmaSI-main\Login_PharmaSI\bin\Debug\MySqlConnector.xml
+C:\Users\ysant\Desktop\Projet marliere\Login_PharmaSI\PharmaSI\PharmaSI-main\Login_PharmaSI\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ysant\Desktop\Projet marliere\Login_PharmaSI\PharmaSI\PharmaSI-main\Login_PharmaSI\bin\Debug\Newtonsoft.Json.Bson.pdb
+C:\Users\ysant\Desktop\Projet marliere\Login_PharmaSI\PharmaSI\PharmaSI-main\Login_PharmaSI\bin\Debug\Newtonsoft.Json.Bson.xml
+C:\Users\ysant\Desktop\Projet marliere\Login_PharmaSI\PharmaSI\PharmaSI-main\Login_PharmaSI\bin\Debug\System.Buffers.xml
+C:\Users\ysant\Desktop\Projet marliere\Login_PharmaSI\PharmaSI\PharmaSI-main\Login_PharmaSI\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\ysant\Desktop\Projet marliere\Login_PharmaSI\PharmaSI\PharmaSI-main\Login_PharmaSI\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\ysant\Desktop\Projet marliere\Login_PharmaSI\PharmaSI\PharmaSI-main\Login_PharmaSI\bin\Debug\System.IO.Pipelines.xml
+C:\Users\ysant\Desktop\Projet marliere\Login_PharmaSI\PharmaSI\PharmaSI-main\Login_PharmaSI\bin\Debug\System.Memory.xml
+C:\Users\ysant\Desktop\Projet marliere\Login_PharmaSI\PharmaSI\PharmaSI-main\Login_PharmaSI\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\ysant\Desktop\Projet marliere\Login_PharmaSI\PharmaSI\PharmaSI-main\Login_PharmaSI\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\ysant\Desktop\Projet marliere\Login_PharmaSI\PharmaSI\PharmaSI-main\Login_PharmaSI\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\ysant\Desktop\Projet marliere\Login_PharmaSI\PharmaSI\PharmaSI-main\Login_PharmaSI\obj\Debug\Login_PharmaSI.Form1.resources
+C:\Users\ysant\Desktop\Projet marliere\Login_PharmaSI\PharmaSI\PharmaSI-main\Login_PharmaSI\obj\Debug\Login_PharmaSI.page_delegue_regional.resources
+C:\Users\ysant\Desktop\Projet marliere\Login_PharmaSI\PharmaSI\PharmaSI-main\Login_PharmaSI\obj\Debug\Login_PharmaSI.page_visiteur.resources
+C:\Users\ysant\Desktop\Projet marliere\Login_PharmaSI\PharmaSI\PharmaSI-main\Login_PharmaSI\obj\Debug\Login_PharmaSI.Properties.Resources.resources
+C:\Users\ysant\Desktop\Projet marliere\Login_PharmaSI\PharmaSI\PharmaSI-main\Login_PharmaSI\obj\Debug\Login_PharmaSI.Responsable_de_secteur.resources
+C:\Users\ysant\Desktop\Projet marliere\Login_PharmaSI\PharmaSI\PharmaSI-main\Login_PharmaSI\obj\Debug\Login_PharmaSI.csproj.GenerateResource.cache
+C:\Users\ysant\Desktop\Projet marliere\Login_PharmaSI\PharmaSI\PharmaSI-main\Login_PharmaSI\obj\Debug\Login_PharmaSI.csproj.CoreCompileInputs.cache
+C:\Users\ysant\Desktop\Projet marliere\Login_PharmaSI\PharmaSI\PharmaSI-main\Login_PharmaSI\obj\Debug\Login_PharmaSI.csproj.CopyComplete
+C:\Users\ysant\Desktop\Projet marliere\Login_PharmaSI\PharmaSI\PharmaSI-main\Login_PharmaSI\obj\Debug\Login_PharmaSI.exe
+C:\Users\ysant\Desktop\Projet marliere\Login_PharmaSI\PharmaSI\PharmaSI-main\Login_PharmaSI\obj\Debug\Login_PharmaSI.pdb
+C:\Users\ysant\source\repos\PharmaSI\PharmaSI-main\Login_PharmaSI\obj\Debug\Login_PharmaSI.csproj.AssemblyReference.cache
+C:\Users\ysant\source\repos\PharmaSI\PharmaSI-main\Login_PharmaSI\obj\Debug\Login_PharmaSI.Form1.resources
+C:\Users\ysant\source\repos\PharmaSI\PharmaSI-main\Login_PharmaSI\obj\Debug\Login_PharmaSI.page_delegue_regional.resources
+C:\Users\ysant\source\repos\PharmaSI\PharmaSI-main\Login_PharmaSI\obj\Debug\Login_PharmaSI.page_visiteur.resources
+C:\Users\ysant\source\repos\PharmaSI\PharmaSI-main\Login_PharmaSI\obj\Debug\Login_PharmaSI.Properties.Resources.resources
+C:\Users\ysant\source\repos\PharmaSI\PharmaSI-main\Login_PharmaSI\obj\Debug\Login_PharmaSI.Responsable_de_secteur.resources
+C:\Users\ysant\source\repos\PharmaSI\PharmaSI-main\Login_PharmaSI\obj\Debug\Login_PharmaSI.csproj.GenerateResource.cache
+C:\Users\ysant\source\repos\PharmaSI\PharmaSI-main\Login_PharmaSI\obj\Debug\Login_PharmaSI.csproj.CoreCompileInputs.cache
+C:\Users\ysant\source\repos\PharmaSI\PharmaSI-main\Login_PharmaSI\obj\Debug\Login_PharmaSI.exe
+C:\Users\ysant\source\repos\PharmaSI\PharmaSI-main\Login_PharmaSI\obj\Debug\Login_PharmaSI.pdb
