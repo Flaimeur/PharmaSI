@@ -65,3 +65,13 @@ C:\Users\ysant\source\repos\PharmaSI\PharmaSI-main\Login_PharmaSI\obj\Debug\Logi
 C:\Users\ysant\source\repos\PharmaSI\PharmaSI-main\Login_PharmaSI\obj\Debug\Login_PharmaSI.csproj.CoreCompileInputs.cache
 C:\Users\ysant\source\repos\PharmaSI\PharmaSI-main\Login_PharmaSI\obj\Debug\Login_PharmaSI.exe
 C:\Users\ysant\source\repos\PharmaSI\PharmaSI-main\Login_PharmaSI\obj\Debug\Login_PharmaSI.pdb
+C:\Users\flaim\Desktop\PharmaSI\PharmaSI-main\Login_PharmaSI\obj\Debug\Login_PharmaSI.csproj.AssemblyReference.cache
+C:\Users\flaim\Desktop\PharmaSI\PharmaSI-main\Login_PharmaSI\obj\Debug\Login_PharmaSI.Form1.resources
+C:\Users\flaim\Desktop\PharmaSI\PharmaSI-main\Login_PharmaSI\obj\Debug\Login_PharmaSI.page_delegue_regional.resources
+C:\Users\flaim\Desktop\PharmaSI\PharmaSI-main\Login_PharmaSI\obj\Debug\Login_PharmaSI.page_visiteur.resources
+C:\Users\flaim\Desktop\PharmaSI\PharmaSI-main\Login_PharmaSI\obj\Debug\Login_PharmaSI.Properties.Resources.resources
+C:\Users\flaim\Desktop\PharmaSI\PharmaSI-main\Login_PharmaSI\obj\Debug\Login_PharmaSI.Responsable_de_secteur.resources
+C:\Users\flaim\Desktop\PharmaSI\PharmaSI-main\Login_PharmaSI\obj\Debug\Login_PharmaSI.csproj.GenerateResource.cache
+C:\Users\flaim\Desktop\PharmaSI\PharmaSI-main\Login_PharmaSI\obj\Debug\Login_PharmaSI.csproj.CoreCompileInputs.cache
+C:\Users\flaim\Desktop\PharmaSI\PharmaSI-main\Login_PharmaSI\obj\Debug\Login_PharmaSI.exe
+C:\Users\flaim\Desktop\PharmaSI\PharmaSI-main\Login_PharmaSI\obj\Debug\Login_PharmaSI.pdb
