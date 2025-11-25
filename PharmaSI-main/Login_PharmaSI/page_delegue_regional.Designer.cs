@@ -84,7 +84,6 @@ namespace Login_PharmaSI
             this.label8.TabIndex = 34;
             this.label8.Text = "Statue :  Délégué Régional👥";
             this.label8.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // label7
             // 
@@ -170,7 +169,6 @@ namespace Login_PharmaSI
             this.pbDeconnexion.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbDeconnexion.TabIndex = 35;
             this.pbDeconnexion.TabStop = false;
-            this.pbDeconnexion.Click += new System.EventHandler(this.pictureBox8_Click);
             // 
             // pictureBox9
             // 
@@ -184,7 +182,6 @@ namespace Login_PharmaSI
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox9.TabIndex = 19;
             this.pictureBox9.TabStop = false;
-            this.pictureBox9.Click += new System.EventHandler(this.pictureBox9_Click);
             // 
             // pictureBox10
             // 

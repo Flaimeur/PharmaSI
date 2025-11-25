@@ -67,7 +67,6 @@ namespace Login_PharmaSI
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(0, 20);
             this.label1.TabIndex = 8;
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -81,7 +80,6 @@ namespace Login_PharmaSI
             this.label2.TabIndex = 9;
             this.label2.Text = "Profile";
             this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -95,7 +93,6 @@ namespace Login_PharmaSI
             this.label3.TabIndex = 10;
             this.label3.Text = "Mon Activité";
             this.label3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
@@ -109,7 +106,6 @@ namespace Login_PharmaSI
             this.label4.TabIndex = 11;
             this.label4.Text = "Mes Praticiens";
             this.label4.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label5
             // 
@@ -123,7 +119,6 @@ namespace Login_PharmaSI
             this.label5.TabIndex = 12;
             this.label5.Text = "Produits et \r\nRéférences";
             this.label5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label6
             // 
@@ -137,7 +132,6 @@ namespace Login_PharmaSI
             this.label6.TabIndex = 13;
             this.label6.Text = "Mon Suivi";
             this.label6.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // label7
             // 
@@ -151,7 +145,6 @@ namespace Login_PharmaSI
             this.label7.TabIndex = 14;
             this.label7.Text = "Activité \r\nComplémentaire";
             this.label7.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // label8
             // 
@@ -166,7 +159,6 @@ namespace Login_PharmaSI
             this.label8.TabIndex = 15;
             this.label8.Text = "Statue : Visiteur 👤";
             this.label8.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // label10
             // 
@@ -193,7 +185,6 @@ namespace Login_PharmaSI
             this.pbDeconnexion.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbDeconnexion.TabIndex = 16;
             this.pbDeconnexion.TabStop = false;
-            this.pbDeconnexion.Click += new System.EventHandler(this.pictureBox9_Click);
             // 
             // pictureBox1
             // 
@@ -207,7 +198,6 @@ namespace Login_PharmaSI
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // pictureBox8
             // 
@@ -220,7 +210,6 @@ namespace Login_PharmaSI
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox8.TabIndex = 7;
             this.pictureBox8.TabStop = false;
-            this.pictureBox8.Click += new System.EventHandler(this.pictureBox8_Click);
             // 
             // pictureBox7
             // 
@@ -233,7 +222,6 @@ namespace Login_PharmaSI
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox7.TabIndex = 6;
             this.pictureBox7.TabStop = false;
-            this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
             // 
             // pictureBox6
             // 
@@ -246,7 +234,6 @@ namespace Login_PharmaSI
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox6.TabIndex = 5;
             this.pictureBox6.TabStop = false;
-            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // pictureBox5
             // 
@@ -259,7 +246,6 @@ namespace Login_PharmaSI
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox5.TabIndex = 4;
             this.pictureBox5.TabStop = false;
-            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
             // pictureBox4
             // 
@@ -272,9 +258,7 @@ namespace Login_PharmaSI
             this.pictureBox4.Size = new System.Drawing.Size(60, 62);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 3;
-            this.pictureBox4.TabStop = false;
-            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
-            // 
+            this.pictureBox4.TabStop = false            // 
             // pictureBox3
             // 
             this.pictureBox3.Anchor = System.Windows.Forms.AnchorStyles.Top;
@@ -286,7 +270,6 @@ namespace Login_PharmaSI
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 2;
             this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // pictureBox2
             // 
@@ -301,7 +284,6 @@ namespace Login_PharmaSI
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // page_visiteur
             // 
@@ -330,7 +312,6 @@ namespace Login_PharmaSI
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "page_visiteur";
             this.Text = "Visiteur";
-            this.Load += new System.EventHandler(this.Form2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pbDeconnexion)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
