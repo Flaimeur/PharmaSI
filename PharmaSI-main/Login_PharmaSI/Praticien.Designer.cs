@@ -155,11 +155,12 @@ namespace Login_PharmaSI
             this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(185)))), ((int)(((byte)(108)))), ((int)(((byte)(195)))), ((int)(((byte)(108)))));
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(436, 438);
+            this.label4.Location = new System.Drawing.Point(436, 446);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(123, 33);
             this.label4.TabIndex = 24;
             this.label4.Text = "Diplome";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label5
             // 
@@ -167,11 +168,12 @@ namespace Login_PharmaSI
             this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(185)))), ((int)(((byte)(108)))), ((int)(((byte)(195)))), ((int)(((byte)(108)))));
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(681, 438);
+            this.label5.Location = new System.Drawing.Point(436, 562);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(110, 33);
             this.label5.TabIndex = 25;
             this.label5.Text = "coef/20";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label6
             // 
@@ -179,11 +181,12 @@ namespace Login_PharmaSI
             this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(185)))), ((int)(((byte)(108)))), ((int)(((byte)(195)))), ((int)(((byte)(108)))));
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(436, 471);
+            this.label6.Location = new System.Drawing.Point(436, 503);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(142, 33);
             this.label6.TabIndex = 26;
             this.label6.Text = "Specialite";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // pictureBox3
             // 
