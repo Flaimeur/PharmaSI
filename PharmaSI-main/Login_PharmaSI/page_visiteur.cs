@@ -70,5 +70,10 @@ namespace Login_PharmaSI
 
         // Handlers auto-générés éventuellement vides
         private void label10_Click(object sender, EventArgs e) { }
+
+        private void praticienToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
