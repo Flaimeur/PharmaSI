@@ -74,5 +74,15 @@ namespace Login_PharmaSI
 
         // Handlers générés par le designer peuvent rester vides si tu en as :
         private void label10_Click(object sender, EventArgs e) { }
+
+        private void saisiToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void consultationToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
