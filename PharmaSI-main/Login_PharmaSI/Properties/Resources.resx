@@ -118,31 +118,43 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Box connexion" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Box connexion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Group1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Box_connexion_shade" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Box_connexion_shade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Group1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Group1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Icon-5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Icon-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Icon_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Icon-10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Icon_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Icon-6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Icon_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icon-9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Icon_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Icon-7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Icon-5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icon-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Box connexion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Box connexion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icon_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icon-6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icon-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icon-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Icon_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Icon-8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Icon_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Icon-9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Icon-21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icon-21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pratiback" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pratiback.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icon_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icon-10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logout-01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logout-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -103,6 +103,26 @@ namespace Login_PharmaSI.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Icon_2 {
+            get {
+                object obj = ResourceManager.GetObject("Icon-2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Icon_21 {
+            get {
+                object obj = ResourceManager.GetObject("Icon-21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Icon_5 {
             get {
                 object obj = ResourceManager.GetObject("Icon-5", resourceCulture);
@@ -146,6 +166,26 @@ namespace Login_PharmaSI.Properties {
         internal static System.Drawing.Bitmap Icon_9 {
             get {
                 object obj = ResourceManager.GetObject("Icon_9", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap logout_01 {
+            get {
+                object obj = ResourceManager.GetObject("logout-01", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pratiback {
+            get {
+                object obj = ResourceManager.GetObject("pratiback", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -71,7 +71,24 @@ namespace Login_PharmaSI
         // Handlers auto-générés éventuellement vides
         private void label10_Click(object sender, EventArgs e) { }
 
+        //switch de page
         private void praticienToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Praticien laPage = new Praticien();
+
+            laPage.Show();
+
+            this.Hide();
+
+            laPage.FormClosed += (s, args) => this.Close();
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pbDeconnexion_Click(object sender, EventArgs e)
         {
 
         }

@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\PharmaSI-main",
+    "\\PharmaSI-main\\Login_PharmaSI"
   ],
-  "SelectedNode": "\\Login_PharmaSI.sln",
+  "SelectedNode": "\\PharmaSI-main\\Login_PharmaSI\\page_visiteur.cs",
   "PreviewInSolutionExplorer": false
 }
