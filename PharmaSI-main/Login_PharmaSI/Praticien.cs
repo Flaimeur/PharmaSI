@@ -145,5 +145,16 @@ namespace Login_PharmaSI
         {
 
         }
+
+        private void praticienToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Praticien laPage = new Praticien();
+
+            laPage.Show();
+
+            this.Hide();
+
+            laPage.FormClosed += (s, args) => this.Close();
+        }
     }
 }

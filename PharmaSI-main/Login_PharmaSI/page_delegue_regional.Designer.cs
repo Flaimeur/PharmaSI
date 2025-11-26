@@ -36,9 +36,14 @@ namespace Login_PharmaSI
             this.pbDeconnexion = new System.Windows.Forms.PictureBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.consultationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.saisieToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.praticienToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.pbDeconnexion)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label10
@@ -48,10 +53,9 @@ namespace Login_PharmaSI
             this.label10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(107)))), ((int)(((byte)(71)))));
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 32.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(882, 177);
-            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label10.Location = new System.Drawing.Point(588, 115);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(414, 74);
+            this.label10.Size = new System.Drawing.Size(277, 51);
             this.label10.TabIndex = 36;
             this.label10.Text = "Bonjour ... 👋\r\n";
             this.label10.Click += new System.EventHandler(this.label10_Click);
@@ -63,9 +67,10 @@ namespace Login_PharmaSI
             this.label8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(107)))), ((int)(((byte)(71)))));
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(782, 262);
+            this.label8.Location = new System.Drawing.Point(521, 170);
+            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(590, 52);
+            this.label8.Size = new System.Drawing.Size(394, 33);
             this.label8.TabIndex = 34;
             this.label8.Text = "Statue :  Délégué Régional👥";
             this.label8.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -74,18 +79,20 @@ namespace Login_PharmaSI
             // 
             this.label9.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(86, 235);
+            this.label9.Location = new System.Drawing.Point(57, 153);
+            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(0, 20);
+            this.label9.Size = new System.Drawing.Size(0, 13);
             this.label9.TabIndex = 27;
             // 
             // pbDeconnexion
             // 
             this.pbDeconnexion.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pbDeconnexion.Image = ((System.Drawing.Image)(resources.GetObject("pbDeconnexion.Image")));
-            this.pbDeconnexion.Location = new System.Drawing.Point(1812, 60);
+            this.pbDeconnexion.Location = new System.Drawing.Point(1208, 39);
+            this.pbDeconnexion.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pbDeconnexion.Name = "pbDeconnexion";
-            this.pbDeconnexion.Size = new System.Drawing.Size(60, 62);
+            this.pbDeconnexion.Size = new System.Drawing.Size(40, 40);
             this.pbDeconnexion.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbDeconnexion.TabIndex = 35;
             this.pbDeconnexion.TabStop = false;
@@ -96,9 +103,10 @@ namespace Login_PharmaSI
             this.pictureBox9.ErrorImage = global::Login_PharmaSI.Properties.Resources.Box_connexion;
             this.pictureBox9.Image = global::Login_PharmaSI.Properties.Resources.Box_connexion;
             this.pictureBox9.InitialImage = global::Login_PharmaSI.Properties.Resources.Box_connexion_shade;
-            this.pictureBox9.Location = new System.Drawing.Point(264, 151);
+            this.pictureBox9.Location = new System.Drawing.Point(176, 98);
+            this.pictureBox9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(1608, 918);
+            this.pictureBox9.Size = new System.Drawing.Size(1072, 597);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox9.TabIndex = 19;
             this.pictureBox9.TabStop = false;
@@ -108,31 +116,69 @@ namespace Login_PharmaSI
             this.pictureBox10.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox10.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pictureBox10.ErrorImage")));
             this.pictureBox10.Image = global::Login_PharmaSI.Properties.Resources.Group1;
-            this.pictureBox10.Location = new System.Drawing.Point(51, 85);
+            this.pictureBox10.Location = new System.Drawing.Point(34, 55);
+            this.pictureBox10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(150, 154);
+            this.pictureBox10.Size = new System.Drawing.Size(100, 100);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox10.TabIndex = 26;
             this.pictureBox10.TabStop = false;
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.consultationToolStripMenuItem,
+            this.saisieToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(1269, 24);
+            this.menuStrip1.TabIndex = 37;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // consultationToolStripMenuItem
+            // 
+            this.consultationToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.praticienToolStripMenuItem});
+            this.consultationToolStripMenuItem.Name = "consultationToolStripMenuItem";
+            this.consultationToolStripMenuItem.Size = new System.Drawing.Size(87, 20);
+            this.consultationToolStripMenuItem.Text = "Consultation";
+            // 
+            // saisieToolStripMenuItem
+            // 
+            this.saisieToolStripMenuItem.Name = "saisieToolStripMenuItem";
+            this.saisieToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
+            this.saisieToolStripMenuItem.Text = "Saisie";
+            // 
+            // praticienToolStripMenuItem
+            // 
+            this.praticienToolStripMenuItem.Name = "praticienToolStripMenuItem";
+            this.praticienToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.praticienToolStripMenuItem.Text = "Praticien";
+            this.praticienToolStripMenuItem.Click += new System.EventHandler(this.praticienToolStripMenuItem_Click);
+            // 
             // page_delegue_regional
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(51)))), ((int)(((byte)(43)))));
-            this.ClientSize = new System.Drawing.Size(1904, 1131);
+            this.ClientSize = new System.Drawing.Size(1269, 690);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.pbDeconnexion);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.pictureBox9);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.pictureBox10);
+            this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "page_delegue_regional";
             this.Text = "Delegue regional";
             ((System.ComponentModel.ISupportInitialize)(this.pbDeconnexion)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -146,5 +192,9 @@ namespace Login_PharmaSI
         private System.Windows.Forms.PictureBox pictureBox9;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.PictureBox pictureBox10;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem consultationToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem praticienToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem saisieToolStripMenuItem;
     }
 }
