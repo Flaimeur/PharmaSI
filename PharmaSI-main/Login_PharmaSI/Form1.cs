@@ -8,12 +8,12 @@ namespace Login_PharmaSI
 {
     public partial class Form1 : Form
     {
-        // ===== Connexion MySQL =====
+        // ===== Connexion MySQL (J'ai gardé ton code tel quel) =====
         private const string Host = "127.0.0.1";
         private const uint Port = 3306;
         private const string Db = "pharmasi";
         private const string Uid = "root";
-        private const string Pwd = ""; // XAMPP par défaut
+        private const string Pwd = "";
 
         private static string ConnString =>
             $"Server={Host};Port={Port};Database={Db};Uid={Uid};Pwd={Pwd};SslMode=None;CharSet=utf8mb4;";
@@ -49,11 +49,13 @@ namespace Login_PharmaSI
                 using (var cn = new MySqlConnection(ConnString))
                 using (var cmd = cn.CreateCommand())
                 {
+                    // MODIF 1 : J'ai ajouté "id" dans le SELECT
                     cmd.CommandText = @"
-                        SELECT prenom, nom, poste
+                        SELECT id, prenom, nom, poste 
                         FROM employe
                         WHERE mail = @login AND mdp = @mdp
                         LIMIT 1;";
+
                     cmd.Parameters.Clear();
                     cmd.Parameters.AddWithValue("@login", login);
                     cmd.Parameters.AddWithValue("@mdp", mdp);
@@ -67,12 +69,18 @@ namespace Login_PharmaSI
                             return;
                         }
 
+                        // MODIF 2 : On récupère l'ID
+                        int id = Convert.ToInt32(r["id"]);
                         string prenom = Convert.ToString(r["prenom"]);
                         string nom = Convert.ToString(r["nom"]);
                         string poste = Convert.ToString(r["poste"]);
                         string p = Normalize(poste);
 
-                        // Routing par rôle autorisé
+                        // MODIF 3 : On remplit le coffre-fort (Session)
+                        Session.Stocker(id, nom, prenom, poste);
+
+                        // --- Le reste de ton code ne change pas ---
+                        // On continue d'utiliser tes constructeurs avec paramètres pour ne rien casser
                         if (p.Contains("visiteur"))
                         {
                             GoTo(new page_visiteur(prenom, nom, poste));
@@ -89,11 +97,9 @@ namespace Login_PharmaSI
                             return;
                         }
 
-                        // ---- Refus personnalisé ----
-                        string nomAffiche = string.IsNullOrWhiteSpace(prenom) ? "Tata" : $"{prenom} {nom}".Trim();
+                        string nomAffiche = string.IsNullOrWhiteSpace(prenom) ? "Utilisateur" : $"{prenom} {nom}".Trim();
                         MessageBox.Show($"Bonjour {nomAffiche}, vous êtes {poste} et ne pouvez vous connecter.");
                         return;
-                        // -----------------------------
                     }
                 }
             }
@@ -107,7 +113,6 @@ namespace Login_PharmaSI
             }
         }
 
-        // Navigation : cache le login, ouvre la page, et ré-affiche le login à la fermeture
         private void GoTo(Form next)
         {
             this.Hide();
@@ -115,6 +120,9 @@ namespace Login_PharmaSI
 
             next.FormClosed += (_, __) =>
             {
+                // MODIF 4 : On vide la session quand on se déconnecte
+                Session.Vider();
+
                 try { LoginIdentifiant?.Clear(); } catch { }
                 try { LoginMotDePasse?.Clear(); } catch { }
                 if (LoginMotDePasse != null) LoginMotDePasse.UseSystemPasswordChar = true;
@@ -127,7 +135,6 @@ namespace Login_PharmaSI
             next.Show();
         }
 
-        // Normalisation accents/minuscules pour comparer les postes
         private static string Normalize(string input)
         {
             if (string.IsNullOrWhiteSpace(input)) return string.Empty;
@@ -139,10 +146,10 @@ namespace Login_PharmaSI
             return sb.ToString().Normalize(NormalizationForm.FormC);
         }
 
-        // Stubs
         private void Form1_Load(object sender, EventArgs e) { }
         private void label1_Click(object sender, EventArgs e) { }
         private void pictureBox3_Click(object sender, EventArgs e) { }
         private void pictureBox4_Click(object sender, EventArgs e) { }
+        private void LoginIdentifiant_TextChanged(object sender, EventArgs e) { }
     }
 }

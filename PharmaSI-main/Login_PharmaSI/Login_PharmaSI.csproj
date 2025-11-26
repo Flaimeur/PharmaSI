@@ -148,6 +148,7 @@
     <Compile Include="Responsable_de_secteur.Designer.cs">
       <DependentUpon>Responsable_de_secteur.cs</DependentUpon>
     </Compile>
+    <Compile Include="Session.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

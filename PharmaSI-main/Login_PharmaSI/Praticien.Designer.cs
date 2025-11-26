@@ -103,7 +103,7 @@ namespace Login_PharmaSI
             // praticienToolStripMenuItem
             // 
             this.praticienToolStripMenuItem.Name = "praticienToolStripMenuItem";
-            this.praticienToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
+            this.praticienToolStripMenuItem.Size = new System.Drawing.Size(140, 26);
             this.praticienToolStripMenuItem.Text = "Praticien";
             this.praticienToolStripMenuItem.Click += new System.EventHandler(this.praticienToolStripMenuItem_Click);
             // 
