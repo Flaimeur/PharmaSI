@@ -19,8 +19,8 @@ namespace Login_PharmaSI
         public Responsable_de_secteur(string prenom, string nom, string poste) : this()
         {
             _prenom = prenom;
-            _nom    = nom;
-            _poste  = poste;
+            _nom = nom;
+            _poste = poste;
         }
 
         protected override void OnLoad(EventArgs e)
@@ -75,7 +75,7 @@ namespace Login_PharmaSI
         private static string BuildFullName(string prenom, string nom)
         {
             prenom = (prenom ?? "").Trim();
-            nom    = (nom ?? "").Trim();
+            nom = (nom ?? "").Trim();
             if (prenom.Length == 0 && nom.Length == 0) return string.Empty;
             if (prenom.Length == 0) return nom;
             if (nom.Length == 0) return prenom;
@@ -121,3 +121,4 @@ namespace Login_PharmaSI
 
         }
     }
+}

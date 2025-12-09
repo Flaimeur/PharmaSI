@@ -47,6 +47,7 @@ namespace Login_PharmaSI
             this.pbDeconnexion = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.produitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -85,6 +86,7 @@ namespace Login_PharmaSI
             this.menuStrip1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.consultationToolStripMenuItem,
+            this.produitToolStripMenuItem,
             this.saisieToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
@@ -103,7 +105,7 @@ namespace Login_PharmaSI
             // praticienToolStripMenuItem
             // 
             this.praticienToolStripMenuItem.Name = "praticienToolStripMenuItem";
-            this.praticienToolStripMenuItem.Size = new System.Drawing.Size(140, 26);
+            this.praticienToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.praticienToolStripMenuItem.Text = "Praticien";
             this.praticienToolStripMenuItem.Click += new System.EventHandler(this.praticienToolStripMenuItem_Click);
             // 
@@ -257,6 +259,13 @@ namespace Login_PharmaSI
             this.pictureBox8.TabStop = false;
             this.pictureBox8.Click += new System.EventHandler(this.pictureBox8_Click);
             // 
+            // produitToolStripMenuItem
+            // 
+            this.produitToolStripMenuItem.Name = "produitToolStripMenuItem";
+            this.produitToolStripMenuItem.Size = new System.Drawing.Size(73, 25);
+            this.produitToolStripMenuItem.Text = "Produit";
+            this.produitToolStripMenuItem.Click += new System.EventHandler(this.produitToolStripMenuItem_Click);
+            // 
             // Praticien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -313,5 +322,6 @@ namespace Login_PharmaSI
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.ToolStripMenuItem produitToolStripMenuItem;
     }
 }

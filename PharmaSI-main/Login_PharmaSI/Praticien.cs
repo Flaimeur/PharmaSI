@@ -198,5 +198,16 @@ namespace Login_PharmaSI
 
             laPage.FormClosed += (s, args) => this.Close();
         }
+
+        private void produitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Produit laPage = new Produit();
+
+            laPage.Show();
+
+            this.Hide();
+
+            laPage.FormClosed += (s, args) => this.Close();
+        }
     }
 }
