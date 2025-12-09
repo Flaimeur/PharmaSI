@@ -36,14 +36,15 @@ namespace Login_PharmaSI
             this.pbDeconnexion = new System.Windows.Forms.PictureBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.consultationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.praticienToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.saisieToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip2 = new System.Windows.Forms.MenuStrip();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.pbDeconnexion)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            this.menuStrip1.SuspendLayout();
+            this.menuStrip2.SuspendLayout();
             this.SuspendLayout();
             // 
             // label10
@@ -124,39 +125,47 @@ namespace Login_PharmaSI
             this.pictureBox10.TabIndex = 26;
             this.pictureBox10.TabStop = false;
             // 
-            // menuStrip1
+            // menuStrip2
             // 
-            this.menuStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(51)))), ((int)(((byte)(43)))));
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.consultationToolStripMenuItem,
-            this.saisieToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1269, 24);
-            this.menuStrip1.TabIndex = 37;
-            this.menuStrip1.Text = "menuStrip1";
+            this.menuStrip2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(107)))), ((int)(((byte)(71)))));
+            this.menuStrip2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem1,
+            this.toolStripMenuItem3,
+            this.toolStripMenuItem4});
+            this.menuStrip2.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip2.Name = "menuStrip2";
+            this.menuStrip2.Size = new System.Drawing.Size(1269, 29);
+            this.menuStrip2.TabIndex = 38;
+            this.menuStrip2.Text = "menuStrip2";
             // 
-            // consultationToolStripMenuItem
+            // toolStripMenuItem1
             // 
-            this.consultationToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.praticienToolStripMenuItem});
-            this.consultationToolStripMenuItem.Name = "consultationToolStripMenuItem";
-            this.consultationToolStripMenuItem.Size = new System.Drawing.Size(87, 20);
-            this.consultationToolStripMenuItem.Text = "Consultation";
-            this.consultationToolStripMenuItem.Click += new System.EventHandler(this.consultationToolStripMenuItem_Click_1);
+            this.toolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem2});
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(110, 25);
+            this.toolStripMenuItem1.Text = "Consultation";
             // 
-            // praticienToolStripMenuItem
+            // toolStripMenuItem2
             // 
-            this.praticienToolStripMenuItem.Name = "praticienToolStripMenuItem";
-            this.praticienToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.praticienToolStripMenuItem.Text = "Praticien";
-            this.praticienToolStripMenuItem.Click += new System.EventHandler(this.praticienToolStripMenuItem_Click);
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(180, 26);
+            this.toolStripMenuItem2.Text = "Praticien";
+            this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
             // 
-            // saisieToolStripMenuItem
+            // toolStripMenuItem3
             // 
-            this.saisieToolStripMenuItem.Name = "saisieToolStripMenuItem";
-            this.saisieToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
-            this.saisieToolStripMenuItem.Text = "Saisie";
+            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(73, 25);
+            this.toolStripMenuItem3.Text = "Produit";
+            this.toolStripMenuItem3.Click += new System.EventHandler(this.toolStripMenuItem3_Click);
+            // 
+            // toolStripMenuItem4
+            // 
+            this.toolStripMenuItem4.Name = "toolStripMenuItem4";
+            this.toolStripMenuItem4.Size = new System.Drawing.Size(62, 25);
+            this.toolStripMenuItem4.Text = "Saisie";
             // 
             // page_delegue_regional
             // 
@@ -164,15 +173,14 @@ namespace Login_PharmaSI
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(51)))), ((int)(((byte)(43)))));
             this.ClientSize = new System.Drawing.Size(1269, 690);
+            this.Controls.Add(this.menuStrip2);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.pbDeconnexion);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.pictureBox9);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.pictureBox10);
-            this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "page_delegue_regional";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
@@ -180,8 +188,8 @@ namespace Login_PharmaSI
             ((System.ComponentModel.ISupportInitialize)(this.pbDeconnexion)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
+            this.menuStrip2.ResumeLayout(false);
+            this.menuStrip2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -195,9 +203,10 @@ namespace Login_PharmaSI
         private System.Windows.Forms.PictureBox pictureBox9;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.PictureBox pictureBox10;
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem consultationToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem praticienToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem saisieToolStripMenuItem;
+        private System.Windows.Forms.MenuStrip menuStrip2;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem4;
     }
 }

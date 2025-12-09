@@ -35,6 +35,7 @@ namespace Login_PharmaSI
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.consultationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.praticienToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.produitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.saisieToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -47,7 +48,6 @@ namespace Login_PharmaSI
             this.pbDeconnexion = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.produitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -82,7 +82,7 @@ namespace Login_PharmaSI
             // 
             // menuStrip1
             // 
-            this.menuStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(51)))), ((int)(((byte)(43)))));
+            this.menuStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(107)))), ((int)(((byte)(71)))));
             this.menuStrip1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.consultationToolStripMenuItem,
@@ -105,9 +105,16 @@ namespace Login_PharmaSI
             // praticienToolStripMenuItem
             // 
             this.praticienToolStripMenuItem.Name = "praticienToolStripMenuItem";
-            this.praticienToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
+            this.praticienToolStripMenuItem.Size = new System.Drawing.Size(140, 26);
             this.praticienToolStripMenuItem.Text = "Praticien";
             this.praticienToolStripMenuItem.Click += new System.EventHandler(this.praticienToolStripMenuItem_Click);
+            // 
+            // produitToolStripMenuItem
+            // 
+            this.produitToolStripMenuItem.Name = "produitToolStripMenuItem";
+            this.produitToolStripMenuItem.Size = new System.Drawing.Size(73, 25);
+            this.produitToolStripMenuItem.Text = "Produit";
+            this.produitToolStripMenuItem.Click += new System.EventHandler(this.produitToolStripMenuItem_Click);
             // 
             // saisieToolStripMenuItem
             // 
@@ -130,11 +137,11 @@ namespace Login_PharmaSI
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(185)))), ((int)(((byte)(108)))), ((int)(((byte)(195)))), ((int)(((byte)(108)))));
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(436, 316);
+            this.label2.Location = new System.Drawing.Point(436, 313);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(308, 55);
+            this.label2.Size = new System.Drawing.Size(222, 39);
             this.label2.TabIndex = 22;
             this.label2.Text = "Nom Prenom";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -145,7 +152,7 @@ namespace Login_PharmaSI
             this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(185)))), ((int)(((byte)(108)))), ((int)(((byte)(195)))), ((int)(((byte)(108)))));
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(436, 382);
+            this.label3.Location = new System.Drawing.Point(436, 389);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(355, 33);
             this.label3.TabIndex = 23;
@@ -158,7 +165,7 @@ namespace Login_PharmaSI
             this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(185)))), ((int)(((byte)(108)))), ((int)(((byte)(195)))), ((int)(((byte)(108)))));
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(436, 446);
+            this.label4.Location = new System.Drawing.Point(436, 461);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(123, 33);
             this.label4.TabIndex = 24;
@@ -171,7 +178,7 @@ namespace Login_PharmaSI
             this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(185)))), ((int)(((byte)(108)))), ((int)(((byte)(195)))), ((int)(((byte)(108)))));
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(436, 562);
+            this.label5.Location = new System.Drawing.Point(436, 594);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(110, 33);
             this.label5.TabIndex = 25;
@@ -184,7 +191,7 @@ namespace Login_PharmaSI
             this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(185)))), ((int)(((byte)(108)))), ((int)(((byte)(195)))), ((int)(((byte)(108)))));
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(436, 503);
+            this.label6.Location = new System.Drawing.Point(436, 529);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(142, 33);
             this.label6.TabIndex = 26;
@@ -258,13 +265,6 @@ namespace Login_PharmaSI
             this.pictureBox8.TabIndex = 7;
             this.pictureBox8.TabStop = false;
             this.pictureBox8.Click += new System.EventHandler(this.pictureBox8_Click);
-            // 
-            // produitToolStripMenuItem
-            // 
-            this.produitToolStripMenuItem.Name = "produitToolStripMenuItem";
-            this.produitToolStripMenuItem.Size = new System.Drawing.Size(73, 25);
-            this.produitToolStripMenuItem.Text = "Produit";
-            this.produitToolStripMenuItem.Click += new System.EventHandler(this.produitToolStripMenuItem_Click);
             // 
             // Praticien
             // 

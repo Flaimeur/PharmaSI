@@ -100,5 +100,27 @@ namespace Login_PharmaSI
         {
 
         }
+
+        private void toolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            Praticien laPage = new Praticien();
+
+            laPage.Show();
+
+            this.Hide();
+
+            laPage.FormClosed += (s, args) => this.Close();
+        }
+
+        private void toolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            Produit laPage = new Produit();
+
+            laPage.Show();
+
+            this.Hide();
+
+            laPage.FormClosed += (s, args) => this.Close();
+        }
     }
 }

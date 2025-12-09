@@ -36,11 +36,11 @@ namespace Login_PharmaSI
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.consultationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.praticienToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.produitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.saisieToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pbDeconnexion = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.produitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbDeconnexion)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -89,7 +89,7 @@ namespace Login_PharmaSI
             // 
             // menuStrip1
             // 
-            this.menuStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(51)))), ((int)(((byte)(43)))));
+            this.menuStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(107)))), ((int)(((byte)(71)))));
             this.menuStrip1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.consultationToolStripMenuItem,
@@ -100,6 +100,7 @@ namespace Login_PharmaSI
             this.menuStrip1.Size = new System.Drawing.Size(1269, 29);
             this.menuStrip1.TabIndex = 19;
             this.menuStrip1.Text = "menuStrip1";
+            this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
             // 
             // consultationToolStripMenuItem
             // 
@@ -108,13 +109,21 @@ namespace Login_PharmaSI
             this.consultationToolStripMenuItem.Name = "consultationToolStripMenuItem";
             this.consultationToolStripMenuItem.Size = new System.Drawing.Size(110, 25);
             this.consultationToolStripMenuItem.Text = "Consultation";
+            this.consultationToolStripMenuItem.Click += new System.EventHandler(this.consultationToolStripMenuItem_Click);
             // 
             // praticienToolStripMenuItem
             // 
             this.praticienToolStripMenuItem.Name = "praticienToolStripMenuItem";
-            this.praticienToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
+            this.praticienToolStripMenuItem.Size = new System.Drawing.Size(140, 26);
             this.praticienToolStripMenuItem.Text = "Praticien";
             this.praticienToolStripMenuItem.Click += new System.EventHandler(this.praticienToolStripMenuItem_Click);
+            // 
+            // produitToolStripMenuItem
+            // 
+            this.produitToolStripMenuItem.Name = "produitToolStripMenuItem";
+            this.produitToolStripMenuItem.Size = new System.Drawing.Size(73, 25);
+            this.produitToolStripMenuItem.Text = "Produit";
+            this.produitToolStripMenuItem.Click += new System.EventHandler(this.produitToolStripMenuItem_Click);
             // 
             // saisieToolStripMenuItem
             // 
@@ -161,13 +170,6 @@ namespace Login_PharmaSI
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox8.TabIndex = 7;
             this.pictureBox8.TabStop = false;
-            // 
-            // produitToolStripMenuItem
-            // 
-            this.produitToolStripMenuItem.Name = "produitToolStripMenuItem";
-            this.produitToolStripMenuItem.Size = new System.Drawing.Size(73, 25);
-            this.produitToolStripMenuItem.Text = "Produit";
-            this.produitToolStripMenuItem.Click += new System.EventHandler(this.produitToolStripMenuItem_Click);
             // 
             // page_visiteur
             // 

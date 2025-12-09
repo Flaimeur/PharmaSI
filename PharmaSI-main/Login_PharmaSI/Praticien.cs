@@ -97,31 +97,30 @@ namespace Login_PharmaSI
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            // secu pour eviter les bug d'affichage si la liste est vide ou il y r sélectionné on fait r
             if (comboBox1.SelectedIndex == -1 || comboBox1.SelectedValue == null) return;
 
-            // 2.Récup l'ID
             int idSelectionne;
-            bool estUnChiffre = int.TryParse(comboBox1.SelectedValue.ToString(), out idSelectionne);
+            if (!int.TryParse(comboBox1.SelectedValue.ToString(), out idSelectionne)) return;
 
-            if (estUnChiffre == false) return;
-
-            //Appel de la classe
             C_Praticien monPraticien = C_Praticien.GetPraticienById(idSelectionne);
 
-            // 4. AFFICHAGE
             if (monPraticien != null)
             {
-                // Label 2 : NOM Prénom 
-                label2.Text = monPraticien.Nom.ToUpper() + " " + monPraticien.Prenom;
-                // Label 3 : Adresse complète 
+                // Label 2 (Gros titre) : Nom Prénom
+                label2.Text = monPraticien.Nom.ToUpper() + " " + monPraticien.Prenom + "\n(" + monPraticien.TypePraticien + ")";
+
+                // Label 3 : Adresse
                 label3.Text = monPraticien.Adresse + "\n" +
                               monPraticien.CodePostal + " " + monPraticien.Ville;
-                // Label 4 : Nom du diplôme 
-                label4.Text = monPraticien.NomDiplome;
-                // Label 6 : Spécialité 
+
+                // Label 4 : Diplôme
+                // La règle demande d'afficher le Coeff Prescription avec le diplôme
+                label4.Text = monPraticien.NomDiplome + " (Coeff Prescr.: " + monPraticien.CoefPrescription + ")";
+
+                // Label 6 : Spécialité
                 label6.Text = monPraticien.NomSpecialite;
-                // Label 5 : La note 
+
+                // Label 5 : Notoriété
                 label5.Text = monPraticien.CoefNotoriete + " / 20";
             }
         }
