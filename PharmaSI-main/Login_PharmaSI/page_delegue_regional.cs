@@ -95,5 +95,10 @@ namespace Login_PharmaSI
 
             laPage.FormClosed += (s, args) => this.Close();
         }
+
+        private void consultationToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

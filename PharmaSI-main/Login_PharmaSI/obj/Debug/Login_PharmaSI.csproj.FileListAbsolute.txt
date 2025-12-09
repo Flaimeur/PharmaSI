@@ -35,3 +35,15 @@ C:\Users\flaim\Desktop\PharmaSI\PharmaSI-main\Login_PharmaSI\bin\Debug\System.Th
 C:\Users\flaim\Desktop\PharmaSI\PharmaSI-main\Login_PharmaSI\obj\Debug\Login_PharmaSI.csproj.CopyComplete
 C:\Users\flaim\Desktop\PharmaSI\PharmaSI-main\Login_PharmaSI\obj\Debug\Login_PharmaSI.exe
 C:\Users\flaim\Desktop\PharmaSI\PharmaSI-main\Login_PharmaSI\obj\Debug\Login_PharmaSI.pdb
+C:\Users\FlowUP\Documents\M\PharmaSI-main\Login_PharmaSI\obj\Debug\Login_PharmaSI.csproj.AssemblyReference.cache
+C:\Users\FlowUP\Documents\M\PharmaSI-main\Login_PharmaSI\obj\Debug\Login_PharmaSI.exe
+C:\Users\FlowUP\Documents\M\PharmaSI-main\Login_PharmaSI\obj\Debug\Login_PharmaSI.pdb
+C:\Users\FlowUP\Documents\M\PharmaSI-main\Login_PharmaSI\obj\Debug\Login_PharmaSI.Form1.resources
+C:\Users\FlowUP\Documents\M\PharmaSI-main\Login_PharmaSI\obj\Debug\Login_PharmaSI.page_delegue_regional.resources
+C:\Users\FlowUP\Documents\M\PharmaSI-main\Login_PharmaSI\obj\Debug\Login_PharmaSI.page_visiteur.resources
+C:\Users\FlowUP\Documents\M\PharmaSI-main\Login_PharmaSI\obj\Debug\Login_PharmaSI.Praticien.resources
+C:\Users\FlowUP\Documents\M\PharmaSI-main\Login_PharmaSI\obj\Debug\Login_PharmaSI.Properties.Resources.resources
+C:\Users\FlowUP\Documents\M\PharmaSI-main\Login_PharmaSI\obj\Debug\Login_PharmaSI.Responsable_de_secteur.resources
+C:\Users\FlowUP\Documents\M\PharmaSI-main\Login_PharmaSI\obj\Debug\Login_PharmaSI.csproj.GenerateResource.cache
+C:\Users\FlowUP\Documents\M\PharmaSI-main\Login_PharmaSI\obj\Debug\Login_PharmaSI.csproj.CoreCompileInputs.cache
+C:\Users\FlowUP\Documents\M\PharmaSI-main\Login_PharmaSI\obj\Debug\Login_PharmaSI.Produit.resources

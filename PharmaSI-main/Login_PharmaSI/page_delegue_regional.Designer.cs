@@ -143,11 +143,12 @@ namespace Login_PharmaSI
             this.consultationToolStripMenuItem.Name = "consultationToolStripMenuItem";
             this.consultationToolStripMenuItem.Size = new System.Drawing.Size(87, 20);
             this.consultationToolStripMenuItem.Text = "Consultation";
+            this.consultationToolStripMenuItem.Click += new System.EventHandler(this.consultationToolStripMenuItem_Click_1);
             // 
             // praticienToolStripMenuItem
             // 
             this.praticienToolStripMenuItem.Name = "praticienToolStripMenuItem";
-            this.praticienToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
+            this.praticienToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.praticienToolStripMenuItem.Text = "Praticien";
             this.praticienToolStripMenuItem.Click += new System.EventHandler(this.praticienToolStripMenuItem_Click);
             // 

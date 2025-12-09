@@ -38,6 +38,8 @@ namespace Login_PharmaSI
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.saisieToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.consultationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.praticienToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.pbDeconnexion)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
@@ -63,7 +65,7 @@ namespace Login_PharmaSI
             this.pbDeconnexion.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pbDeconnexion.Image = ((System.Drawing.Image)(resources.GetObject("pbDeconnexion.Image")));
             this.pbDeconnexion.Location = new System.Drawing.Point(1208, 39);
-            this.pbDeconnexion.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pbDeconnexion.Margin = new System.Windows.Forms.Padding(2);
             this.pbDeconnexion.Name = "pbDeconnexion";
             this.pbDeconnexion.Size = new System.Drawing.Size(40, 40);
             this.pbDeconnexion.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -94,7 +96,7 @@ namespace Login_PharmaSI
             this.pictureBox1.Image = global::Login_PharmaSI.Properties.Resources.Box_connexion;
             this.pictureBox1.InitialImage = global::Login_PharmaSI.Properties.Resources.Box_connexion_shade;
             this.pictureBox1.Location = new System.Drawing.Point(176, 98);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(1072, 597);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -119,7 +121,7 @@ namespace Login_PharmaSI
             this.pictureBox8.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pictureBox8.ErrorImage")));
             this.pictureBox8.Image = global::Login_PharmaSI.Properties.Resources.Group1;
             this.pictureBox8.Location = new System.Drawing.Point(34, 55);
-            this.pictureBox8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(100, 100);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -132,6 +134,7 @@ namespace Login_PharmaSI
             this.menuStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(51)))), ((int)(((byte)(43)))));
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.consultationToolStripMenuItem,
             this.saisieToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
@@ -145,6 +148,21 @@ namespace Login_PharmaSI
             this.saisieToolStripMenuItem.Name = "saisieToolStripMenuItem";
             this.saisieToolStripMenuItem.Size = new System.Drawing.Size(48, 22);
             this.saisieToolStripMenuItem.Text = "Saisie";
+            // 
+            // consultationToolStripMenuItem
+            // 
+            this.consultationToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.praticienToolStripMenuItem});
+            this.consultationToolStripMenuItem.Name = "consultationToolStripMenuItem";
+            this.consultationToolStripMenuItem.Size = new System.Drawing.Size(87, 22);
+            this.consultationToolStripMenuItem.Text = "Consultation";
+            // 
+            // praticienToolStripMenuItem
+            // 
+            this.praticienToolStripMenuItem.Name = "praticienToolStripMenuItem";
+            this.praticienToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.praticienToolStripMenuItem.Text = "Praticien";
+            this.praticienToolStripMenuItem.Click += new System.EventHandler(this.praticienToolStripMenuItem_Click);
             // 
             // Responsable_de_secteur
             // 
@@ -160,7 +178,7 @@ namespace Login_PharmaSI
             this.Controls.Add(this.pictureBox8);
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Responsable_de_secteur";
             this.Text = "Responsable Secteur";
             ((System.ComponentModel.ISupportInitialize)(this.pbDeconnexion)).EndInit();
@@ -183,5 +201,7 @@ namespace Login_PharmaSI
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem saisieToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem consultationToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem praticienToolStripMenuItem;
     }
 }

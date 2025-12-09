@@ -108,5 +108,16 @@ namespace Login_PharmaSI
         private void pictureBox4_Click(object sender, EventArgs e) { }
         private void pictureBox3_Click(object sender, EventArgs e) { }
         private void pictureBox2_Click(object sender, EventArgs e) { }
+
+        private void praticienToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Praticien laPage = new Praticien();
+
+            laPage.Show();
+
+            this.Hide();
+
+            laPage.FormClosed += (s, args) => this.Close();
+
+        }
     }
-}
